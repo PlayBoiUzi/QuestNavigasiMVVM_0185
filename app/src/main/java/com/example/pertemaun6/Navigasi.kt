@@ -45,8 +45,3 @@ fun DataApp(
     }
 }
 
-private fun cancelAndBackToFormulirSaya(
-    navController: NavController
-) {
-    navController.popBackStack(Navigasi.FormulirSaya.name, inclusive = false)
-}
